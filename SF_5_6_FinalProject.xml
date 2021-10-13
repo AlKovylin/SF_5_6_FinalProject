@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SF_5_6_FinalProject</name>
+    </assembly>
+    <members>
+        <member name="M:SF_5_6_FinalProject.Program.DataEntry">
+            <summary>
+            Функция ввода данных в анкету
+            </summary>
+            <returns>кортеж Anketa</returns>
+        </member>
+        <member name="M:SF_5_6_FinalProject.Program.InNumData(System.String)">
+            <summary>
+            Ограничение. Ввод только численного значения.
+            </summary>
+            <param name="outMessage"></param>
+            <returns>int</returns>
+        </member>
+        <member name="M:SF_5_6_FinalProject.Program.CheckInNumData(System.String,System.Int32@)">
+            <summary>
+            Проверка: входящие данные это число?
+            </summary>
+            <param name="inStr"></param>
+            <param name="numInt"></param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:SF_5_6_FinalProject.Program.CheckInYesOrNo">
+            <summary>
+            Ограничение. Ввод только "Да/Нет"
+            </summary>
+            <returns>bool</returns>
+        </member>
+        <member name="M:SF_5_6_FinalProject.Program.InArrayData(System.Int32,System.String)">
+            <summary>
+            Формирование массива строк.
+            </summary>
+            <param name="numOfElements"></param>
+            <param name="outMessage"></param>
+            <returns>string[]</returns>
+        </member>
+        <member name="M:SF_5_6_FinalProject.Program.ShowAnketa(System.ValueTuple{System.String,System.String,System.Int32,System.Boolean,System.Int32,System.String[],System.String[]})">
+            <summary>
+            Вывод анкеты на экран.
+            </summary>
+            <param name="Anketa"></param>
+        </member>
+        <member name="M:SF_5_6_FinalProject.Program.PrintArray(System.String[],System.String)">
+            <summary>
+            Выдов содержимого одномерного массива на экран.
+            </summary>
+            <param name="arr"></param>
+            <param name="nameArr"></param>
+        </member>
+    </members>
+</doc>
